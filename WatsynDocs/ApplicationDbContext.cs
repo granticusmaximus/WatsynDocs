@@ -1,4 +1,6 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WatsynDocs.Models;
 
 namespace WatsynDocs
@@ -20,6 +22,9 @@ namespace WatsynDocs
 
         #region DbSets
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<Document> Document { get; set; }
+        public DbSet<Keynote> Keynote { get; set; }
+        public DbSet<Spreadsheet> Spreadsheet { get; set; }
         #endregion
     }
 }

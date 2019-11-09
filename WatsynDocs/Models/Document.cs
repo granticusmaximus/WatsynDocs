@@ -7,5 +7,6 @@ namespace WatsynDocs.Models
     {
         [Key]
         public Guid DocumentID { get; set; }
+        public string DocumentTitle { get; set; }
     }
 }

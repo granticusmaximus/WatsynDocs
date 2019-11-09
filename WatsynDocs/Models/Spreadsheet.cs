@@ -7,5 +7,6 @@ namespace WatsynDocs.Models
     {
         [Key]
         public Guid SpreadsheetID { get; set; }
+        public string SpreadsheetTitle { get; set; }
     }
 }
