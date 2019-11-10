@@ -17,5 +17,19 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\App\" />
+    <Folder Include="Services\Database\" />
+    <Folder Include="Services\Security\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Identity\" />
+    <Folder Include="Areas\Identity\Pages\" />
+    <Folder Include="Data\" />
+    <Folder Include="Areas\Identity\Pages\Account\" />
+    <Folder Include="Areas\Identity\Pages\Account\Manage\" />
   </ItemGroup>
 </Project>
